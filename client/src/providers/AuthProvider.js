@@ -28,7 +28,7 @@ export default class AuthProvider extends React.Component {
         history.push("/");
       })
       .catch((e) => {
-        alert("Invalid login attempt");
+        alert("Invalid login attempted");
       });
   };
 
